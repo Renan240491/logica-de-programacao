@@ -2,18 +2,16 @@ programa {
   funcao inicio()
   { 
 
-     real: Celsius, Fahrenheit  
+     real Celsius, Fahrenheit  
 
    escreva("Digite a temperatura em graus Celsius: ")
-    leia (C)
+    leia (Celsius)
   
-  C, F:real
-    
-    escreva("Digite a temperatura em graus Celsius: ")
-    leia (C)
-  
-F (9* C + 160) /5 
+    Fahrenheit =  (9* Celsius + 160) /5 
 
-escreva("A temperatura convertida em fahrenheit é:, F)
+    escreva("A temperatura convertida em fahrenheit é:", Fahrenheit)
+
+  }
+}
 
 
